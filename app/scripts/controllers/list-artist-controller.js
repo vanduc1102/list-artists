@@ -7,9 +7,9 @@
  * # MainCtrl
  * Controller of the listArtistsApp
  */
-app.controller('MainCtrl', ['$scope','$http',function ($scope,$http) {
+app.controller('ListArtistController', ['$scope','$http',function ($scope,$http) {
  $http.get('scripts/controllers/data.json').success(function(data) {
     $scope.artists = data;
-	$scope.artistOrder="name";
+	$scope.artistOrder='name';
   });
 }]);
