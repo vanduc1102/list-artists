@@ -2,7 +2,7 @@
 
 /**
  * @ngdoc function
- * @name listArtistsApp.controller:MainCtrl
+ * @name listArtistsApp.controller:ListArtistController
  * @description
  * # MainCtrl
  * Controller of the listArtistsApp
