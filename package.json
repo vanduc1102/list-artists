@@ -29,5 +29,9 @@
   },
   "engines": {
     "node": ">=0.10.0"
+  },
+  "repository": {
+	  "type": "git",
+	  "url": "https://github.com/vanduc1102/list-artists.git"
   }
 }
