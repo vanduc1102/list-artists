@@ -8,7 +8,7 @@
  *
  * Main module of the application.
  */
- var app = angular.module('listArtistsApp', [
+var app = angular.module('listArtistsApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
@@ -16,15 +16,13 @@
     'ngSanitize',
     'ngTouch'
   ]);
-/*
-app.config(function ($routeProvider) {
+app.config(['$routeProvider',function ($routeProvider) {
     $routeProvider
-      .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
+      .when('/list', {
+        templateUrl: 'views/list.html',
+        controller: 'ListArtistController'
       })
       .otherwise({
-        redirectTo: '/'
+        redirectTo: '/list'
       });
-  });
-*/
+  }]);
