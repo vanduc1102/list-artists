@@ -7,11 +7,10 @@
  * # MainCtrl
  * Controller of the listArtistsApp
  */
-angular.module('listArtistsApp')
-  .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+app.controller('MainCtrl', function ($scope) {
+	$scope.author = {
+	    'name' : 'Ray Villalobos',
+	    'title' : 'Staff Author',
+	    'company' : 'Lynda.com'
+    }
+});
