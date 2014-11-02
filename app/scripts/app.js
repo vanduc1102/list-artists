@@ -22,7 +22,7 @@ app.config(['$routeProvider',function ($routeProvider) {
         templateUrl: 'views/list.html',
         controller: 'ListArtistController'
       })
-	  .when('/detail/:itemId', {
+	  .when('/details/:itemId', {
         templateUrl: 'views/details.html',
         controller: 'DetailController'
       })
